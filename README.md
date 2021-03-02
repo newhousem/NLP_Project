@@ -23,22 +23,24 @@ Negative Tweets Word Map
 
 As we can see from the graphs and the word maps, both emotions have many of the same words. The similarity between words in the tweets may make it difficult for the model to differentiate between the two emotions. 
 
+## LDA Model
 To explore what words may be used in the models for each emotion, I ran an LDA model to look at the types of words within each emotional category. 
 
-Positive Tweets
+## Positive Tweets
 ![alt text](Images/Positve%20Words%20Group%203.png)
-Some words that can be seen in the groups of positive emotion tweets are; 'great', 'good', 'awesome'
+* Some words that can be seen in the groups of positive emotion tweets are; 'great', 'good', 'awesome'
 
-Negative Tweets
+## Negative Tweets
 ![alt text](Images/Negative%20Words%20Group%201.png)
-Some words that can be seen in the groups of negative emotion tweets are; 'suck', 'headache', and other expletives 
+* Some words that can be seen in the groups of negative emotion tweets are; 'suck', 'headache', and other expletives 
 
 ## Modeling
 ### Baseline Model
 
 ![alt text](Images/Baseline%20Model.png)
-The baseline model was a random forest classifier model with tfidf as a vectorizer.
-The model has clear overfitting, and is better at predicting the positive emotion than the negative emotion
+
+* The baseline model was a random forest classifier model with tfidf as a vectorizer.
+* The model has clear overfitting, and is better at predicting the positive emotion than the negative emotion
 
 ## Final Models
 ### Multinomial Naive Bayes
